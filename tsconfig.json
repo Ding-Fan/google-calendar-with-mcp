@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",         // Target modern JavaScript features
+    "module": "NodeNext",        // Use Node.js's native ES module system
+    "moduleResolution": "NodeNext", // Use Node.js's module resolution strategy
+    "outDir": "./dist",          // Optional: Where to put compiled JS files if you build
+    "rootDir": "./",             // The root directory of your source files
+    "strict": true,              // Enable all strict type-checking options
+    "esModuleInterop": true,     // Allows compatibility with CommonJS modules
+    "skipLibCheck": true,        // Skip type checking of declaration files (.d.ts)
+    "forceConsistentCasingInFileNames": true // Ensure file references have consistent casing
+  },
+  "include": ["index.ts"],      // Which files to include in compilation
+  "exclude": ["node_modules"]   // Which files/directories to exclude
+}
